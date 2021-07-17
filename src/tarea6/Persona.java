@@ -6,7 +6,7 @@ public abstract class Persona {
     private String apellido;
     private int edad ;
 
-    
+
 public Persona(String nombre ,String apellido, int edad)
 {
     super();
