@@ -9,13 +9,11 @@ public Deportista(String nombre,String apellido,int edad, String dedicacion, Str
     super(nombre, apellido , edad );
     this.dedicacion=dedicacion;
     this.equipo=equipo;
-
-    
     
 }
 
 public String getDedicacion() {
-return dedicacion;
+return dedicacion ;
 }
 public void setDedicacion(String dedicacion) {
 this.dedicacion = dedicacion;
