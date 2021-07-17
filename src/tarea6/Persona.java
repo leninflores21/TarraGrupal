@@ -1,3 +1,5 @@
+package tarea6;
+
 public abstract class Persona {
     
     private String nombre;

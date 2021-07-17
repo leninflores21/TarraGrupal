@@ -1,18 +1,22 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package tarea6;
+public class Tarea6{
+      
+ public static void main (String [ ] Args) {
 
+      Doctor doctor= new Doctor("Maria","Hernandez", 31, "Doctor", "Univ. Catolica", "segundo");
+      Deportista deportista=new Deportista("Dennis", "Gamez ", 18, "Deportista" , "Olimpia");
+      
+     
+       System.out.println("Persona 1");
+       System.out.println("Nombre :"+doctor.getNombre()+"\n"+"Apellido :"+doctor.getApellido()+"\n"+"Edad  :"+ 
+               doctor.getEdad()+"\n"+"Dedicacion :"+doctor.getDedicacion()+"\n"+"Escuela:"+doctor.getEscuela()+"\n"+"Nivel:"+doctor.getNivel());
  
-public class Tarea6 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+       System.out.println(" "); 
+       System.out.println("Persona 2");
+        
+       System.out.println("Nombre :"+deportista.getNombre()+"\n"+"Apellido :"+deportista.getApellido()+"\n"+"Edad :"+
+               deportista.getEdad()+"\n"+"Dedicacion :"+deportista.getDedicacion()+"\n"+"Equipo :"+deportista.getEquipo());
+        
+}
     
 }

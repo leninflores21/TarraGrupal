@@ -1,3 +1,5 @@
+package tarea6;
+
 public class Doctor extends Persona{
 private String dedicacion;
 private String escuela;

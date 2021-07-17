@@ -1,3 +1,5 @@
+package tarea6;
+
 public class Deportista extends Persona{
 private String dedicacion;
 private String equipo;
