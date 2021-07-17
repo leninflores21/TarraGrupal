@@ -11,6 +11,8 @@ public class Tarea6{
        System.out.println("Nombre :"+doctor.getNombre()+"\n"+"Apellido :"+doctor.getApellido()+"\n"+"Edad  :"+ 
                doctor.getEdad()+"\n"+"Dedicacion :"+doctor.getDedicacion()+"\n"+"Escuela:"+doctor.getEscuela()+"\n"+"Nivel:"+doctor.getNivel());
  
+       
+       
        System.out.println(" "); 
        System.out.println("Persona 2");
         
