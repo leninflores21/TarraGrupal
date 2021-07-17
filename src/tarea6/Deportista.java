@@ -8,6 +8,8 @@ public Deportista(String nombre,String apellido,int edad, String dedicacion, Str
     this.dedicacion=dedicacion;
     this.equipo=equipo;
 
+    
+    
 }
 
 public String getDedicacion() {
