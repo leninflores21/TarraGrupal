@@ -18,5 +18,7 @@ public class Tarea6{
                deportista.getEdad()+"\n"+"Dedicacion :"+deportista.getDedicacion()+"\n"+"Equipo :"+deportista.getEquipo());
         
 }
+ 
+ 
     
 }
